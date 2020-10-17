@@ -19,4 +19,7 @@ exclude = ["/.vscode/", "/.github/"]
 maintenance = { status = "actively-developed" }
 
 [dependencies]
-rsat = "=0.1.11"
+
+[dependencies.rsat]
+path = "../rsat"
+version = "=0.1.11"
