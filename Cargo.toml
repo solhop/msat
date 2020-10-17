@@ -1,0 +1,22 @@
+[package]
+name = "msat"
+version = "0.1.0"
+authors = ["Prateek Kumar <prateek@prateekkumar.in>"]
+edition = "2018"
+description = """
+MaxSAT Solver
+"""
+documentation = "https://docs.rs/msat/"
+homepage = "https://solhop.org/msat"
+repository = "https://github.com/solhop/msat"
+readme = "README.md"
+keywords = ["MaxSAT", "Boolean", "Satisfiability", "Solver", "Math"]
+categories = ["science"]
+license = "MIT"
+exclude = ["/.vscode/", "/.github/"]
+
+[badges]
+maintenance = { status = "actively-developed" }
+
+[dependencies]
+rsat = "=0.1.11"
