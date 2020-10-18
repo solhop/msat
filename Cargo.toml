@@ -21,5 +21,4 @@ maintenance = { status = "actively-developed" }
 [dependencies]
 
 [dependencies.rsat]
-path = "../rsat"
 version = "=0.1.11"
